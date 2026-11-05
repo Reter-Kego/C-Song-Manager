@@ -157,6 +157,11 @@ int main() {
 			}
 			case 4: {
 				printf("\n"); 
+				if (count == 0) {
+			        printf("曲库为空，无法删除！\n");
+			        break;
+			    }
+				
 				char target[50];
 				printf("注意：当含有重复时，此方式只能删除序号靠前的一个\n\n");
 				printf("请输入要删除的歌曲名称：");
