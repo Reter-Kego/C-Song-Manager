@@ -1,0 +1,2 @@
+Goodbye	SingerA	100	0
+SongB	SingerB	200	0
